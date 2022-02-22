@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: |
-  Roman Numerals Converter CLI project
+  Roman Numerals Converter project 
 Parameters:
   
   
