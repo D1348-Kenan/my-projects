@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  
+Parameters:
+  
+  # vpc
+  # keyname
+  # subnets  !Subnet leri liste halinde göster.!
+
+# Lets first write ALB security group. Like EC2s or other resources.
+# ALBs need security groups to manage traffic. As you've learned in class,
+# ALB's are a network solution to distribute traffic in balance.
+# They need security group to control their traffic.
+Resources:
+  # 3 tane sec grup oluşturacaksınız. bunların birbiri ile bağlantılarına dikkat edin.
+  # auto scaling grup, launch template içerisinde girdiğimiz verilere göre oluşacak.
+  
+  # Database in önce security grubunu oluşturacaksınız sonra serverını.
+  # ALB Security Group oluşturacağız.
+  # Webserver Security Group
+  # Webserver LT oluştur, user datası ile beraber.
+  # Webserver Target Group
+  # Application Load Balancer  # listenerı olacak onu tarif edeceksiniz.
+  # ALB Listener
+  # Webserver ASG
+  # Database Security Group 
+  # Database server ın önce security grubunu oluşturacaksınız sonra serverını oluşturacaksınız.
+
+
+
+Outputs:
+  # output olarak Loadbalancer ın DNS nameini çekeceksiniz.
